@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!---------------->
+  <!--music on the background-->
+  <!-- <embed src="music/gentle_waves_track.mp3" loop="true" autostart="true" width="2" height="0"> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Stoop Sale</title>
+</head>
+
+<body>
+
+  <!--audio-->
+  <audio id="myAudio">
+    <source src="gentle_waves_track.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- <button onclick="playAudio()" type="button"><img src="images/play-button.png" alt="play-btn"></button> -->
+  <img class="play-btn" onclick="playAudio()" type="button" src="images/play-button.png" alt="play-btn">
+  <img class="pause-btn" class="pause-btn" onclick="pauseAudio()" type="button" src="images/pause.png" alt="play-btn">
+  <!------------------>
+  <!-- <h1>Music</h1>
+  <p>Test</p> -->
+  <!-------------------------->
+  <div class="row" id="section-1">
+    <div class="column">
+      <img class="stoop-sale" src="images/Designer (4) x.jpeg" alt="Stoop Sale Brooklyn">
+    </div>
+    <div class="column">
+      <h1 class="p-txt">You are invited to our Stoop Sale!</h1>
+      <button class="button1"><a href="#section-2">Check this out!</a></button>
+    </div>
+  </div>
+
+  <div id="section-2">
+    <div>
+      <h1>testing section 2</h1>
+      <div class="card-img"><div class="img"></div></div>
+    </div>
+  </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
